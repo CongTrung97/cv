@@ -85,7 +85,7 @@
 }
 
 .back-to-top i:hover {
-  color: var(--dark);
+  color: #fff;
 }
 
 .back-to-top {
@@ -215,4 +215,41 @@
 
 .testimonial-carousel .owl-dot.active {
   background: var(--primary);
+}
+
+
+/* width */
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.list-project {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-project li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.position-relative img {
+  max-height: 230px;
+  object-fit: cover;
 }

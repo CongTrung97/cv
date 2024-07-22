@@ -3503,7 +3503,7 @@ textarea.form-control-lg {
     transition: none;
   }
 }
-.nav-link:hover, .nav-link:focus {
+.nav-link.active, .nav-link:hover, .nav-link:focus {
   color: #00B87B;
 }
 .nav-link.disabled {

@@ -78,6 +78,10 @@
         items: 1
     });
     
+    $(".nav-link").on('click', function (event) {
+        $('.nav .nav-link').removeClass('active');
+        $(this).addClass('active');
+    });
     
     // Back to top button
     $(window).scroll(function () {
