@@ -200,6 +200,10 @@
   opacity: 1;
 }
 
+.portfolio-item h6 a:hover {
+  color: var(--primary);
+}
+
 .testimonial-carousel .owl-dots {
   margin-top: 25px;
   text-align: center;
